@@ -99,8 +99,27 @@ In this plot, the points **deviate from the straight line**, indicating that the
 Understanding the distribution of purchase frequencies is important for **inventory management, demand forecasting, and product bundling** in market basket analysis.
 
 
-## 8. QQ Plot - Recency
-![QQ Plot Recency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Recency.png)
+## 📈 QQ Plot: Distribution of Recency
+
+![QQ Plot of Recency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/QQ_plot_Recency.png)
+
+This **Quantile-Quantile (QQ) plot)** compares the distribution of recency values against a **normal distribution**. QQ plots help assess if a dataset follows a theoretical distribution.  
+
+### 🔍 Interpretation
+
+- **X-axis**: Theoretical quantiles from the normal distribution  
+- **Y-axis**: Observed quantiles from the recency values  
+
+In this plot, the points **deviate from the straight line**, indicating that the recency values **do not follow a normal distribution**. This is common in customer behavior data, where a few customers made recent purchases, and many others haven't purchased in a while.  
+
+### ✅ Key Takeaways
+
+- **Skewness**: The deviation from the straight line suggests the data may be skewed.  
+- **Heavy Tails / Outliers**: Extreme values are present in the data.  
+- **Impact**: Non-normal distribution may affect statistical modeling and analysis choices.  
+
+Understanding the distribution of recency values is important for **customer segmentation, churn prediction, and personalized marketing strategies** in market basket analysis.
+If 
 
 ## 9. Distribution of Clients by Segment
 ![Distribution Clients Segment](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/distribution_clients_segment.png)
