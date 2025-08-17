@@ -26,16 +26,16 @@ Below are the main figures generated during the analysis.
 ## 4. Clusters Scatter
 ![Clusters Scatter](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_kmeans/clusters_scatter.png)
 
-Este gráfico representa los **clusters generados a partir del análisis de cestas de mercado** utilizando técnicas de agrupamiento (por ejemplo, K-Means).  
+This chart represents the **clusters generated from the market basket analysis** using clustering techniques (e.g., K-Means).
 
-- Cada **punto** representa un cliente o transacción en el espacio de características seleccionado.  
-- Los **colores** indican el **cluster al que pertenece cada cliente**, mostrando cómo se agrupan según patrones de compra similares.  
-- Permite identificar segmentos de clientes con comportamientos de compra parecidos, lo que puede ayudar a:  
-  - Diseñar **estrategias de marketing personalizadas**  
-  - Optimizar la **disposición de productos**  
-  - Detectar **patrones de compra frecuentes** dentro de cada cluster  
+- Each **point** represents a customer or transaction in the selected feature space.  
+- **Colors** indicate the **cluster each customer belongs to**, showing how they group based on similar purchasing patterns.  
+- It helps identify customer segments with similar buying behaviors, which can be used to:  
+  - Design **personalized marketing strategies**  
+  - Optimize **product placement**  
+  - Detect **frequent purchasing patterns** within each cluster  
 
-💡 Observación: Cuantos más claros y separados estén los clusters, más diferenciados son los comportamientos de compra entre los segmentos.
+💡 Note: The clearer and more separated the clusters are, the more distinct the buying behaviors are between segments.
 
 ## 5. Elbow Method
 ![Elbow Method](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/elbow_method.png)
