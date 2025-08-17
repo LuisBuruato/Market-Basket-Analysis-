@@ -6,11 +6,10 @@ This repository contains notebooks and visualizations for **customer segmentatio
 
 ## Notebooks
 
-### 1. Customer Segmentation
-- [`cx_segmentation.ipynb`](cx_segmentation.ipynb) – Main notebook for **RFM analysis**, **KMeans clustering**, and silhouette evaluation.
-
-### 2. Customer Segmentation (Preprocessing & Plots)
-- [`customer_segmen.ipynb`](customer_segmen.ipynb) – Data preprocessing, exploratory analysis, and 2D/3D visualizations.
+import plotly.io as pio
+pio.write_image(fig, 'graficos_plotly_png/boxplot_amount_3_clusters.png')  # Guarda como PNG
+from IPython.display import Image
+Image('graficos_plotly_png/boxplot_amount_3_clusters.png')  # Muestra la imagen
 
 ---
 
