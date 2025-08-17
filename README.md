@@ -180,7 +180,31 @@ Each plot represents a pair of products, and the regression line helps identify 
 Understanding these relationships is crucial for **inventory management, product bundling, and personalized marketing strategies** in market basket analysis.
 
 
-## 12. 3D Scatter Plot
-![3D Scatter Plot](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/scatter3D.png)
+## 📊 3D Scatter Plot: Product Relationships
+
+![3D Scatter Plot](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/scatter3D.png)
+
+This **3D scatter plot** visualizes the relationships between three products, showing how the quantities purchased of one product correlate with the quantities of two other products.  
+
+### 🔍 Interpretation
+
+- **X-axis**: Quantity purchased of the first product  
+- **Y-axis**: Quantity purchased of the second product  
+- **Z-axis**: Quantity purchased of the third product  
+- **Points**: Each point represents a transaction, with its position indicating the quantities of the three products purchased  
+
+This plot helps identify patterns such as:
+
+- **Positive Correlation**: As the quantity of one product increases, the quantities of the other products also increase  
+- **Negative Correlation**: As the quantity of one product increases, the quantities of the other products decrease  
+- **No Significant Correlation**: No clear relationship between the quantities of the products  
+
+### ✅ Key Takeaways
+
+- **Identifying Product Relationships**: Understand which products are often purchased together  
+- **Optimizing Store Layout**: Inform product placement to enhance cross-selling opportunities  
+- **Targeted Marketing**: Support promotional strategies for products with strong correlations  
+
+Understanding these relationships is crucial for **inventory management, product bundling, and personalized marketing strategies** in market basket analysis.
 
 
