@@ -37,8 +37,24 @@ This chart represents the **clusters generated from the market basket analysis**
 
 💡 Note: The clearer and more separated the clusters are, the more distinct the buying behaviors are between segments.
 
-## 5. Elbow Method
-![Elbow Method](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/elbow_method.png)
+## 📉 Elbow Method for Optimal Clusters
+
+![Elbow Method](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_kmeans/elbow_method.png)
+
+The **Elbow Method** is a heuristic used to determine the optimal number of clusters (k) in K-Means clustering. It involves plotting the **Within-Cluster Sum of Squares (WCSS)** against the number of clusters and identifying the point where the rate of decrease sharply slows down, forming an "elbow" in the graph.
+
+### 🔍 Interpretation
+
+- **X-axis**: Number of clusters (k)  
+- **Y-axis**: WCSS (a measure of the variance within each cluster)  
+
+The optimal number of clusters corresponds to the point where increasing k no longer significantly reduces WCSS. This indicates that adding more clusters doesn't substantially improve the model's performance.
+
+### ✅ Key Takeaways
+
+- The Elbow Method provides a visual approach to selecting the number of clusters.  
+- It helps identify the point where adding more clusters yields diminishing returns.  
+- While useful, the method is subjective, and the "elbow" point may not always be clear.
 
 ## 6. QQ Plot - Amount
 ![QQ Plot Amount](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Amount.png)
