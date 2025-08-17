@@ -1,77 +1,94 @@
-# Market Basket Analysis - Customer Segmentation
+# Market Basket Analysis – Customer Segmentation
 
-This repository contains notebooks and visualizations for **customer segmentation** and **market basket analysis**.
-
----
-
-## Notebooks
-
-import plotly.io as pio
-pio.write_image(fig, 'graficos_plotly_png/boxplot_amount_3_clusters.png')  # Guarda como PNG
-from IPython.display import Image
-Image('graficos_plotly_png/boxplot_amount_3_clusters.png')  # Muestra la imagen
+This project analyzes customer purchasing patterns and segments customers based on their buying behavior using clustering techniques. The visualizations (boxplots) display how `Amount`, `Frequency`, and `Recency` vary across clusters.
 
 ---
 
-## Visualizations
+## 1. Introduction
 
-### 1. 2D RFM Scatter Plots
-- File: `graficos_productos/regplots_2D.png`  
-- **Explanation:** Shows relationships between Recency, Frequency, and Monetary metrics. Helps visualize how customers cluster based on spending behavior.
-
-![2D RFM Plot](graficos_productos/regplots_2D.png)
-
----
-
-### 2. Boxplots of RFM Metrics per Cluster
-Files in: `graficos_plotly_png/`  
-
-**Explanation:** Boxplots show distribution of **Amount**, **Frequency**, and **Recency** for each cluster. Outliers above the 95th percentile are removed to focus on the main trends.
-
-#### 2.1 Amount Boxplots
-- Highlights high vs. low-spending clusters.
-
-![Amount 3 Clusters](graficos_plotly_png/boxplot_amount_3_clusters.png)
-![Amount 5 Clusters](graficos_plotly_png/boxplot_amount_5_clusters.png)
-![Amount 7 Clusters](graficos_plotly_png/boxplot_amount_7_clusters.png)
-
-#### 2.2 Frequency Boxplots
-- Shows which clusters buy more frequently.
-
-![Frequency 3 Clusters](graficos_plotly_png/boxplot_frequency_3_clusters.png)
-![Frequency 5 Clusters](graficos_plotly_png/boxplot_frequency_5_clusters.png)
-![Frequency 7 Clusters](graficos_plotly_png/boxplot_frequency_7_clusters.png)
-
-#### 2.3 Recency Boxplots
-- Helps identify active vs. inactive customers.
-
-![Recency 3 Clusters](graficos_plotly_png/boxplot_recency_3_clusters.png)
-![Recency 5 Clusters](graficos_plotly_png/boxplot_recency_5_clusters.png)
-![Recency 7 Clusters](graficos_plotly_png/boxplot_recency_7_clusters.png)
+- **Objective:** Segment customers based on their purchasing behavior to identify groups with similar patterns.  
+- **Dataset:** Customer transaction data including products, purchase amount, and purchase frequency.  
+- **Methodology:**  
+  1. Data preprocessing and selection of main features (`Amount`, `Frequency`, `Recency`).  
+  2. Clustering using **KMeans**.  
+  3. Evaluation of clustering performance with **Silhouette Score**.  
+  4. Visualization of differences across clusters using **boxplots**.
 
 ---
 
-### 3. Interactive HTML Plots
-Files in: `graficos_plotly_html/`  
+## 2. Boxplots per Cluster
 
-**Note:** GitHub does not render interactive HTML plots. Open these files locally in a browser to explore interactivity.
-
-- Amount boxplots:
-  - `boxplot_amount_3_clusters.html`  
-  - `boxplot_amount_5_clusters.html`  
-  - `boxplot_amount_7_clusters.html`  
-- Frequency boxplots:
-  - `boxplot_frequency_3_clusters.html`  
-  - `boxplot_frequency_5_clusters.html`  
-  - `boxplot_frequency_7_clusters.html`  
-- Recency boxplots:
-  - `boxplot_recency_3_clusters.html`  
-  - `boxplot_recency_5_clusters.html`  
-  - `boxplot_recency_7_clusters.html`  
+The following boxplots illustrate the distribution of each variable across **3, 5, and 7 clusters**. Outliers were removed for clarity, and only the top variables are shown.
 
 ---
 
-## How to Use
-1. Clone the repository:
-```bash
-git clone https://github.com/LuisBuruato/Market-Basket-Analysis-.git
+### 2.1 Amount (Purchase Value)
+
+**3 Clusters:**
+
+![Boxplot Amount 3 Clusters](graficos_plotly_png/boxplot_amount_3_clusters.png)
+
+**5 Clusters:**
+
+![Boxplot Amount 5 Clusters](graficos_plotly_png/boxplot_amount_5_clusters.png)
+
+**7 Clusters:**
+
+![Boxplot Amount 7 Clusters](graficos_plotly_png/boxplot_amount_7_clusters.png)
+
+**Explanation:**  
+- Clusters with a higher median represent customers who typically spend more.  
+- Outliers show customers with unusually high spending behavior.  
+
+---
+
+### 2.2 Frequency (Purchase Frequency)
+
+**3 Clusters:**
+
+![Boxplot Frequency 3 Clusters](graficos_plotly_png/boxplot_frequency_3_clusters.png)
+
+**5 Clusters:**
+
+![Boxplot Frequency 5 Clusters](graficos_plotly_png/boxplot_frequency_5_clusters.png)
+
+**7 Clusters:**
+
+![Boxplot Frequency 7 Clusters](graficos_plotly_png/boxplot_frequency_7_clusters.png)
+
+**Explanation:**  
+- The median indicates the typical purchase frequency within each cluster.  
+- Clusters with higher values represent more loyal or frequent buyers.  
+
+---
+
+### 2.3 Recency (Time Since Last Purchase)
+
+**3 Clusters:**
+
+![Boxplot Recency 3 Clusters](graficos_plotly_png/boxplot_recency_3_clusters.png)
+
+**5 Clusters:**
+
+![Boxplot Recency 5 Clusters](graficos_plotly_png/boxplot_recency_5_clusters.png)
+
+**7 Clusters:**
+
+![Boxplot Recency 7 Clusters](graficos_plotly_png/boxplot_recency_7_clusters.png)
+
+**Explanation:**  
+- Lower recency means customers purchased recently.  
+- Higher recency means customers have not purchased in a long time (inactive customers).  
+
+---
+
+## 3. Conclusion
+
+- The segmentation highlights **distinct customer groups** based on purchase amount, frequency, and recency.  
+- **High-value clusters** identify premium customers worth targeting for loyalty campaigns.  
+- **High-frequency clusters** represent engaged, repeat customers.  
+- **High-recency clusters** reveal inactive customers who may need reactivation strategies.  
+
+---
+
+📊 With this segmentation, businesses can design **targeted marketing strategies** for each customer group.
