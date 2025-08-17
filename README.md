@@ -121,8 +121,20 @@ In this plot, the points **deviate from the straight line**, indicating that the
 Understanding the distribution of recency values is important for **customer segmentation, churn prediction, and personalized marketing strategies** in market basket analysis.
 If 
 
-## 9. Distribution of Clients by Segment
-![Distribution Clients Segment](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/distribution_clients_segment.png)
+## 📊 Client Segmentation Distribution
+
+![Client Segmentation Distribution](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/distribution_clients_segment.png)
+
+This **bar chart** illustrates the distribution of customers across different segments based on their purchasing behavior.  
+
+The segmentation is typically derived from **RFM (Recency, Frequency, Monetary)** analysis, which categorizes customers into groups such as:
+
+- **Champions**: High recency, frequency, and monetary values  
+- **Loyal Customers**: High frequency and monetary, but lower recency  
+- **Potential Loyalists**: High recency, moderate frequency and monetary  
+- **At Risk**: Low recency, frequency, and monetary  
+
+This segmentation helps businesses **tailor marketing strategies, optimize product offerings, and improve customer retention** by understanding the purchasing patterns of different customer groups.
 
 ## 10. Customer Segments (Pie Chart)
 ![Pie Segment Clients](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/pie_segment_clients.png)
