@@ -97,7 +97,7 @@ In this plot, the points **deviate from the straight line**, indicating that the
 - **Impact**: Non-normal distribution may affect statistical modeling and analysis choices.  
 
 Understanding the distribution of purchase frequencies is important for **inventory management, demand forecasting, and product bundling** in market basket analysis.
-If you want, I can now create a ful
+
 
 ## 8. QQ Plot - Recency
 ![QQ Plot Recency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Recency.png)
