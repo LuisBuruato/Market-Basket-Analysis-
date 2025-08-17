@@ -56,8 +56,26 @@ The optimal number of clusters corresponds to the point where increasing k no lo
 - It helps identify the point where adding more clusters yields diminishing returns.  
 - While useful, the method is subjective, and the "elbow" point may not always be clear.
 
-## 6. QQ Plot - Amount
-![QQ Plot Amount](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Amount.png)
+## 📈 QQ Plot: Distribution of Purchase Amounts
+
+![QQ Plot of Amount](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/QQ_plot_Amount.png)
+
+This **Quantile-Quantile (QQ) plot** compares the distribution of purchase amounts against a **normal distribution**. QQ plots help assess if a dataset follows a theoretical distribution.  
+
+### 🔍 Interpretation
+
+- **X-axis**: Theoretical quantiles from the normal distribution  
+- **Y-axis**: Observed quantiles from the purchase amounts  
+
+In this plot, the points **deviate from the straight line**, indicating that the purchase amounts **do not follow a normal distribution**. This is common in financial data, where a few purchases are significantly larger than the majority.  
+
+### ✅ Key Takeaways
+
+- **Skewness**: The deviation from the straight line suggests the data may be skewed.  
+- **Heavy Tails / Outliers**: Extreme values are present in the data.  
+- **Impact**: Non-normal distribution may affect statistical modeling and analysis choices.  
+
+Understanding the distribution of purchase amounts is crucial for **anomaly detection, pricing strategies, and customer segmentation** in market basket analysis.
 
 ## 7. QQ Plot - Frequency
 ![QQ Plot Frequency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Frequency.png)
