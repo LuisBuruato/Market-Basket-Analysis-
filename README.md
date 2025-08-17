@@ -153,8 +153,32 @@ This segmentation helps businesses **tailor marketing strategies, optimize produ
 
 
 
-## 11. 2D Regression Plots
-![2D Regression Plots](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/regplots_2D.png)
+## 📊 2D Regression Plots: Product Relationships
+
+![2D Regression Plots](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/regplots_2D.png)
+
+These **2D regression plots** visualize the relationships between pairs of products, highlighting how the quantity purchased of one product correlates with the quantity purchased of another.  
+
+### 🔍 Interpretation
+
+- **X-axis**: Quantity purchased of the first product  
+- **Y-axis**: Quantity purchased of the second product  
+- **Regression Line**: Shows the trend or relationship between the two products  
+
+Each plot represents a pair of products, and the regression line helps identify patterns such as:
+
+- **Positive Correlation**: As the quantity of one product increases, the quantity of the other product also increases  
+- **Negative Correlation**: As the quantity of one product increases, the quantity of the other product decreases  
+- **No Significant Correlation**: No clear relationship between the quantities of the two products  
+
+### ✅ Key Takeaways
+
+- **Identifying Product Relationships**: Helps understand which products are often purchased together  
+- **Optimizing Store Layout**: Can inform product placement to enhance cross-selling opportunities  
+- **Targeted Marketing**: Assists in creating promotional strategies for products with strong correlations  
+
+Understanding these relationships is crucial for **inventory management, product bundling, and personalized marketing strategies** in market basket analysis.
+I can now compil
 
 ## 12. 3D Scatter Plot
 ![3D Scatter Plot](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/scatter3D.png)
