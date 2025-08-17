@@ -77,8 +77,27 @@ In this plot, the points **deviate from the straight line**, indicating that the
 
 Understanding the distribution of purchase amounts is crucial for **anomaly detection, pricing strategies, and customer segmentation** in market basket analysis.
 
-## 7. QQ Plot - Frequency
-![QQ Plot Frequency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Frequency.png)
+## 📈 QQ Plot: Distribution of Purchase Frequencies
+
+![QQ Plot of Frequency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/QQ_plot_Frequency.png)
+
+This **Quantile-Quantile (QQ) plot)** compares the distribution of purchase frequencies against a **normal distribution**. QQ plots help assess if a dataset follows a theoretical distribution.  
+
+### 🔍 Interpretation
+
+- **X-axis**: Theoretical quantiles from the normal distribution  
+- **Y-axis**: Observed quantiles from the purchase frequencies  
+
+In this plot, the points **deviate from the straight line**, indicating that the purchase frequencies **do not follow a normal distribution**. This is common in transaction data, where a few items are purchased very frequently.  
+
+### ✅ Key Takeaways
+
+- **Skewness**: The deviation from the straight line suggests the data may be skewed.  
+- **Heavy Tails / Outliers**: Extreme values are present in the data.  
+- **Impact**: Non-normal distribution may affect statistical modeling and analysis choices.  
+
+Understanding the distribution of purchase frequencies is important for **inventory management, demand forecasting, and product bundling** in market basket analysis.
+If you want, I can now create a ful
 
 ## 8. QQ Plot - Recency
 ![QQ Plot Recency](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/QQ_plot_Recency.png)
