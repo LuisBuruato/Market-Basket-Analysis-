@@ -178,7 +178,7 @@ Each plot represents a pair of products, and the regression line helps identify 
 - **Targeted Marketing**: Assists in creating promotional strategies for products with strong correlations  
 
 Understanding these relationships is crucial for **inventory management, product bundling, and personalized marketing strategies** in market basket analysis.
-I can now compil
+
 
 ## 12. 3D Scatter Plot
 ![3D Scatter Plot](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/scatter3D.png)
