@@ -24,7 +24,7 @@ Below are the main figures generated during the analysis.
 ---
 
 ## 4. Clusters Scatter
-![Clusters Scatter](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/clusters_scatter.png)
+(https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/clusters_scatter.png)
 
 ## 5. Elbow Method
 ![Elbow Method](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/elbow_method.png)
