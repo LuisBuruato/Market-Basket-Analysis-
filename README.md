@@ -136,8 +136,22 @@ The segmentation is typically derived from **RFM (Recency, Frequency, Monetary)*
 
 This segmentation helps businesses **tailor marketing strategies, optimize product offerings, and improve customer retention** by understanding the purchasing patterns of different customer groups.
 
-## 10. Customer Segments (Pie Chart)
-![Pie Segment Clients](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/pie_segment_clients.png)
+## 🥧 Client Segmentation Distribution
+
+![Client Segmentation Pie Chart](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos_productos/pie_segment_clients.png)
+
+This **pie chart** illustrates the distribution of customers across different segments based on their purchasing behavior.  
+
+The segmentation is typically derived from **RFM (Recency, Frequency, Monetary)** analysis, which categorizes customers into groups such as:
+
+- **Champions**: High recency, frequency, and monetary values  
+- **Loyal Customers**: High frequency and monetary, but lower recency  
+- **Potential Loyalists**: High recency, moderate frequency and monetary  
+- **At Risk**: Low recency, frequency, and monetary  
+
+This segmentation helps businesses **tailor marketing strategies, optimize product offerings, and improve customer retention** by understanding the purchasing patterns of different customer groups.
+
+
 
 ## 11. 2D Regression Plots
 ![2D Regression Plots](https://raw.githubusercontent.com/LuisBuruato/Market-Basket-Analysis-/main/graficos/regplots_2D.png)
